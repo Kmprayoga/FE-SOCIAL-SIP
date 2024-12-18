@@ -22,15 +22,15 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-8 text-blue-400">Statistik Scan QR Code</h1>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-sm">
         <div className="mb-4">
-          <p className="text-lg font-semibold">Jumlah Scan QR Code Baliho 1:</p>
+          <p className="text-lg font-semibold">Jumlah Scan QR Code Baliho :</p>
           <p className="text-2xl text-blue-300">{stats.qrCode1}</p>
         </div>
         <div className="mb-4">
-          <p className="text-lg font-semibold">Jumlah Scan QR Code Brosur 2:</p>
+          <p className="text-lg font-semibold">Jumlah Scan QR Code Brosur :</p>
           <p className="text-2xl text-green-300">{stats.qrCode2}</p>
         </div>
         <div className="mb-4">
-          <p className="text-lg font-semibold">Jumlah Scan QR Code OTS 3:</p>
+          <p className="text-lg font-semibold">Jumlah Scan QR Code OTS :</p>
           <p className="text-2xl text-red-300">{stats.qrCode3}</p>
         </div>
         <div>
